@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Car</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="header">
+        <div class="main-nav">
+            <div class="navbar">
+                <div>
+                <img src="./Assets/united-arab-emirates.png" alt="" width="25px" class="UAE-flag">
+                <select name="County name" id="" class="Country-name">
+                    <option value="text" class="nav-drop">UAE </option>
+                    <option value="text" class="nav-drop">SA</option>
+                    <option value="text" class="nav-drop">PAK</option>
+                    <option value="text" class="nav-drop">USA</option>
+                    <option value="text" class="nav-drop">MAR</option>
+                    <option value="text" class="nav-drop">NER</option>
+                    <option value="text" class="nav-drop">CAN</option>
+                </select>
+                </div>
+
+                <div>
+                <img src="./Assets/united-states-of-america.png" alt="" width="25px" class="USA-flag">
+                <select name="Language" id="" class="Language">
+                    <option value="text" class="nav-drop">English</option>
+                    <option value="text" class="nav-drop">Russian</option>
+                    <option value="text" class="nav-drop">Chinese</option>
+                    <option value="text" class="nav-drop">Korean</option>
+                    <option value="text" class="nav-drop">French</option>
+                    <option value="text" class="nav-drop">Italian</option>
+                    <option value="text" class="nav-drop">German</option>
+                    <option value="text" class="nav-drop">Dutch</option>
+                    <option value="text" class="nav-drop">Spanish</option>
+                </select>
+                </div>
+
+                <div>
+                <div class="currency"><i class="fa-regular fa-money-bill-1"></i></div>
+                <select name="Country-Code" id="" class="Country-code">
+                    <option value="text" class="nav-drop">AED</option>
+                    <option value="text" class="nav-drop">USD</option>
+                    <option value="text" class="nav-drop">GBP</option>
+                    <option value="text" class="nav-drop">EUR</option>
+                    <option value="text" class="nav-drop">SAR</option>
+                    <option value="text" class="nav-drop">JYP</option>
+                    <option value="text" class="nav-drop">CNY</option>
+                    <option value="text" class="nav-drop">AUD</option>
+                    <option value="text" class="nav-drop">CAD</option>
+                    <option value="text" class="nav-drop">NZD</option>
+                </select>
+                </div>
+
+                <option value="text" class="Arabic">العربية</option>
+            </div>
+
+            <div class="sec-nav">
+                <div>
+                    <img src="./Assets/Rent a car.png" alt="" class="rentlogo">
+                <select name="text" id="" class="RAC">
+                    <option value="text">Rent a Car</option>
+                </select>
+            
+                <select name="text" id="" class="Brands">
+                    <option value="text">Brands</option>
+                </select>
+
+                <select name="text" id="" class="YacR">
+                    <option value="text">Yacht Rent</option>
+                </select>
+
+                <a href="" class="Pro">Promotion</a>
+                <a href="" class="CU">Contact Us</a>
+                <a href="" class="Login">Login</a>
+
+                <button class="get-start">Get Started   &nbsp; <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" style="color: white;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></svg></button>
+            </div>
+
+                <div class="mainface">
+                    <img src="./Assets/rent a car dubai wala.png" alt="" class="dubairent">
+                    <p class="first-para">Clean cars. Flexible bookings. Socially distant rental counters.</p>
+                    <p class="sec-para">We’re working with our partners to keep you safe and in the driving seat.</p>
+                    <a href="https://www.apple.com/store"><img src="./Assets/iconAppStore.svg" alt="" class="iconAppStore" width="160px"></a>
+                    <a href="https://play.google.com/store"><img src="./Assets/iconGooglePlayE.svg" alt="" class="iconGooglePlayE" width="160px"></a>
+                </div>
+
+                <div class="searchcontainer">
+                    <div class="searchbar">
+                        <div class="glass"><i class="fa-solid fa-magnifying-glass"></i>
+                        <input placeholder="Pick up location... " class="search-input">
+                        <img src="./Assets/live divider.png" alt="" class="line-nav-div" width="14px"></div>
+   
+                        <div class="calander-nav"><li class="PUD">Pick up date</li>
+                        <input type="date" name="" id="" class="date-nav">
+                        <img src="./Assets/live divider.png" alt="" class="line-nav-div-one" width="14px"></div>
+   
+                        <div class="clock-nav"><i class="fa-regular fa-clock"></i><li class="time-nav">Time</li>
+                        <input type="datetime" name="" id="" placeholder="10:00" class="time-div">
+                        <img src="./Assets/live divider.png" alt="" class="line-nav-div-two" width="14px"></div>
+   
+                        <div class="calander-nav-two"><li class="PUD-two">Pick up date</li>
+                        <input type="date" name="" id="" class="date-nav-two">
+                        <img src="./Assets/live divider.png" alt="" class="line-nav-div-three" width="14px"></div>
+   
+                        <div class="clock-nav-two"><i class="fa-regular fa-clock"></i><li class="time-nav-two">Time</li>
+                        <input type="datetime" name="" id="" placeholder="10:00" class="time-div-two">
+                        <img src="./Assets/live divider.png" alt="" class="line-nav-div-four" width="14px"></div>
+                       
+                        <div><button class="searchdiv">Search </button></div>
+                   
+                   </div>
+                </div>
+                    
+
+                </div>
+
+            <div>
+                <img src="./Assets/why should.png" alt="" class="second-para">
+            </div>
+
+            <div class="rental-car-details">
+
+                <div class="first-card">
+                    <p class="first-para-card">450</p>
+                    <p class="Rental">rental <br> companies</p>
+                    <img src="./Assets/live divider.png" alt="" class="line">
+                </div>
+
+                <div class="sec-card">
+                    <p class="sec-para-card">315</p>
+                    <p class="Rental-car">rental cars <br> registered</p>
+                    <img src="./Assets/live divider.png" alt="" class="secline">
+                </div>
+
+                <div class="thired-card">
+                    <p class="thired-para-card">35K</p>
+                    <p class="Satisfied-clients">satisfied <br>clients</p>
+                    <img src="./Assets/live divider.png" alt="" class="thdline">
+                </div>
+
+                <div class="fourth-card">
+                    <p class="fourth-para-card">60</p>
+                    <p class="Seconds-average">Seconds <br> average <br> booking time</p>
+                </div>
+            </div>
+            
+            <div>
+                <p class="cat-para">Find car rental and drive services near you</p>
+                <select name="cityname" id=""  class="City-name"> 
+                    <option value="text" aria-placeholder="Select Citys">Select Citys</option>
+                    <option value="text">Sharjah</option>
+                    <option value="text">Ajman</option>
+                    <option value="text">Fujerah</option>
+                    <option value="text"> Ras alKhaemah</option>
+                    <option value="text">Abu Dhabi</option>
+                    <option value="text">Jebel Ali</option>
+                    <option value="text">Al Ain</option>
+                    <option value="text">Umm Al Quwain</option>
+                </select>
+                
+
+                <div class="luxury-car">
+                    <img src="./Assets/Luxury cars.png" alt="" class="Luxury-img" width="210">
+                    <p class="Luxury">Luxury</p>
+                    <p class="L-cars">560 Cars</p>
+                </div>
+
+                <div class="sports-car">
+                    <img src="./Assets/Sports car.png" alt="" class="Sports-img" width="210">
+                    <p class="sports">Sports</p>
+                    <p class="S-cars">265 Cars</p>
+                </div>
+
+                <div class="SUV-car">
+                    <img src="./Assets/SUV car.png" alt="" class="SUV-img" width="200">
+                    <p class="SUV">SUV</p>
+                    <p class="SU-cars">768 Cars</p>
+                </div>
+
+
+                <div class="monthly-car">
+                    <img src="./Assets/Monthly.png" alt="" class="monthly-img" width="210">
+                    <p class="monthly">Monthly</p>
+                    <p class="SUS-cars">560 Cars</p>
+                </div>
+
+                <div class="High-car">
+                    <img src="./Assets/high price.png" alt="" class="High-img" width="210">
+                    <p class="High">High Price</p>
+                    <p class="High-cars">560 Cars</p>
+                </div>
+
+                <div class="withdriver-car">
+                    <img src="./Assets/SUV car.png" alt="" class="withdriver-img" width="210">
+                    <p class="withdriver">Cars with Driver</p>
+                    <p class="SU-with-cars">768 Cars</p>
+                </div>
+
+
+                <div class="Electric-car">
+                    <img src="./Assets/Electric.png" alt="" class="Electric-img" width="210">
+                    <p class="Electric">Electric</p>
+                    <p class="SU-ele-cars">560 Cars</p>
+                </div>
+
+                <div class="Convertable-car">
+                    <img src="./Assets/convertable.png" alt="" class="Convertable-img" width="240">
+                    <p class="Convertable">Convertable</p>
+                    <p class="SU-co-cars">265 Cars</p>
+                </div>
+            
+                <button class="See-more">See More   &nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#5dcaf9}</style><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></i></button>
+            </div>
+            
+        
+        <div class="card-bar">
+            <p class="BYSC">Book Your Suitable Car</p>
+            <p class="para-bysc">Complete the search form above to find cheap Rent a Car in Dubai. Arrive at your destination</p> 
+            <p class="sec-para-bysc"> in comfort and luxury – in a classy executive car. </p> 
+
+        
+        
+            <select name="text" id="" class="Price">
+                <option value="text">Price &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Model">
+                <option value="text">Model &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Location">
+                <option value="text">Location &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Color">
+                <option value="text">Color &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Rating">
+                <option value="text">Rating &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+        </div>
+    
+    <div class="cards-cars">
+        <div> 
+            <div class="card-Land-cruser">
+            <p class="Land">Land Cruser</p>
+            <img src="./Assets/Land Cruser.png" alt="" width="200px" class="Land-img">
+            <p class="Land-price">$99</p>
+            <p class="Land-perday">/day</p>
+            <img src="./Assets/stars review.png" alt="" width="190px" class="Land-review">
+            <img src="./Assets/4 seats.png" alt="" width="40px" class="Land-seats">
+            <img src="./Assets/AC.png" alt="" width="40px" class="Land-AC">
+            <img src="./Assets/AUTO.png" alt="" width="40px" class="Land-Auto">
+            <img src="./Assets/Petrol.png" alt="" width="40px" class="Land-Petrol">
+            <p class="Lpara-one">4 Seat</p>
+            <p class="Lpara-two">Ac</p>
+            <p class="Lpara-three">Auto</p>
+            <p class="Lpara-four">Petrol</p>
+            <button class="LRent-now">Rent Now </button></div>
+        </div>
+        <div>  
+            <div class="card-Allied">
+                <p class="Allied">Allied 15</p>
+                <img src="./Assets/Allied15.png" alt="" width="200px" class="Allied-img">
+                <p class="Allied-price">$95</p>
+                <p class="Allied-perday">/day</p>
+                <img src="./Assets/stars review.png" alt="" width="190px" class="Allied-review">
+                <img src="./Assets/4 seats.png" alt="" width="40px" class="Allied-seats">
+                <img src="./Assets/AC.png" alt="" width="40px" class="Allied-AC">
+                <img src="./Assets/AUTO.png" alt="" width="40px" class="Allied-Auto">
+                <img src="./Assets/Petrol.png" alt="" width="40px" class="Allied-Petrol">
+                <p class="Apara-one">4 Seat</p>
+                <p class="Apara-two">Ac</p>
+                <p class="Apara-three">Auto</p>
+                <p class="Apara-four">Petrol</p>
+                <button class="ARent-now">Rent Now </button></div>
+        </div>
+
+        <div>  
+            <div class="card-BMW">
+                <p class="BMW">BMW</p>
+                <img src="./Assets/BMW.png" alt="" width="200px" class="BMW-img">
+                <p class="BMW-price">$90</p>
+                <p class="BMW-perday">/day</p>
+                <img src="./Assets/stars review.png" alt="" width="190px" class="BMW-review">
+                <img src="./Assets/4 seats.png" alt="" width="40px" class="BMW-seats">
+                <img src="./Assets/AC.png" alt="" width="40px" class="BMW-AC">
+                <img src="./Assets/AUTO.png" alt="" width="40px" class="BMW-Auto">
+                <img src="./Assets/Petrol.png" alt="" width="40px" class="BMW-Petrol">
+                <p class="Bpara-one">4 Seat</p>
+                <p class="Bpara-two">Ac</p>
+                <p class="Bpara-three">Auto</p>
+                <p class="Bpara-four">Petrol</p>
+                <button class="BRent-now">Rent Now </button></div>
+        </div>
+   
+        <div>  
+            <div class="card-Honda">
+                <p class="Honda">Honda Jazz</p>
+                <img src="./Assets/Honda Jazz.png" alt="" width="180px" class="Honda-img">
+                <p class="Honda-price">$85</p>
+                <p class="Honda-perday">/day</p>
+                <img src="./Assets/stars review.png" alt="" width="190px" class="Honda-review">
+                <img src="./Assets/4 seats.png" alt="" width="40px" class="Honda-seats">
+                <img src="./Assets/AC.png" alt="" width="40px" class="Honda-AC">
+                <img src="./Assets/AUTO.png" alt="" width="40px" class="Honda-Auto">
+                <img src="./Assets/Petrol.png" alt="" width="40px" class="Honda-Petrol">
+                <p class="Hpara-one">4 Seat</p>
+                <p class="Hpara-two">Ac</p>
+                <p class="Hpara-three">Auto</p>
+                <p class="Hpara-four">Petrol</p>
+                <button class="HRent-now">Rent Now </button></div>
+        <img src="./Assets/arrow sign.png" alt="" class="arrow-sign-one" width="40px">
+        <img src="./Assets/other arrow.png" alt="" class="left-arrow-one" width="40px">
+        </div>
+
+        
+
+        <div>
+            
+            <img src="./Assets/main banner.png" alt="" class="main-banner" width="1200px">
+            
+        </div>
+
+        <div>
+            <p class="div-para-one">Explore Our First Class Services </p>
+            <img src="./Assets/Feel the best.png" alt="" class="div-para-img">
+            <p class="div-para-two">We compare the best car hire companies so that you get the best price - Guaranteed!</p>
+            <p class="div-para-three">From the day you book until the day you travel, we'll beat any other quote.</p>
+        </div>
+
+
+        <div class="SUV-banner-all">
+            <img src="./Assets/SVU banner.png" alt="" width="600px">
+        </div>
+
+
+        <div>
+            <div class="VOB">
+                <img src="./Assets/Veriaty of brand.png" alt="" class="variety-img" width="50px">
+                <p class="VOB-para">Variety of Brands</p>
+                <p class="VOb-para-one">A brand for a company is like</p>
+                <p class="VOb-para-two">a reputation for a person.</p>
+            </div>
+    
+            <div class="QD-div">
+                <img src="./Assets/Qulaity drive.png" alt="" class="Quality-drive" width="50px">
+                <p class="QD-para">Quality Drive</p>
+                <p class="QD-para-one">Quality is not an act, it is a habit,</p>
+                <p class="QD-para-two"> Motivational, Inspiring.</p>
+            </div>
+
+            <div class="FC-div">
+                <img src="./Assets/Free cancellation.png" alt="" class="Free-can" width="50px">
+                <p class="Free-can-one">Free Cancellation</p>
+                <p class="Free-can-two">Hessel free cancellation </p>
+                <p class="Free-can-three">before 24 hours of Delivery.</p>
+            </div>
+
+            <div class="BS-div">
+                <img src="./Assets/Best security.png" alt="" class="BS-img" width="50px">
+                <p class="BS-para-one">Best Security</p>
+                <p class="BS-para-two">Use the built-in navigation </p>
+                <p class="BS-para-three">system or GPS app.</p>
+            </div>
+
+            
+        <div class="card-bar-two">
+            <p class="BYSC-two">Book Your Suitable Car</p>
+            <p class="para-bysc-thre">Complete the search form above to find cheap Rent a Car in Dubai. Arrive at your destination</p> 
+            <p class="sec-para-bysc-thr"> in comfort and luxury – in a classy executive car. </p> 
+
+        
+        
+            <select name="text" id="" class="Price-two">
+                <option value="text">Price &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Model-two">
+                <option value="text">Model &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Location-two">
+                <option value="text">Location &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Color-two">
+                <option value="text">Color &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+
+            
+            <select name="text" id="" class="Rating-two">
+                <option value="text">Rating &nbsp;&nbsp;&nbsp;&nbsp;</option>
+            </select>
+        </div>
+    
+    <div class="cards-cars-two">
+        <div class="card-Land-cruser">
+            <p class="Land">Land Cruser</p>
+            <img src="./Assets/Land Cruser.png" alt="" width="200px" class="Land-img">
+            <p class="Land-price">$99</p>
+            <p class="Land-perday">/day</p>
+            <img src="./Assets/stars review.png" alt="" width="190px" class="Land-review">
+            <img src="./Assets/4 seats.png" alt="" width="40px" class="Land-seats">
+            <img src="./Assets/AC.png" alt="" width="40px" class="Land-AC">
+            <img src="./Assets/AUTO.png" alt="" width="40px" class="Land-Auto">
+            <img src="./Assets/Petrol.png" alt="" width="40px" class="Land-Petrol">
+            <p class="Lpara-one">4 Seat</p>
+            <p class="Lpara-two">Ac</p>
+            <p class="Lpara-three">Auto</p>
+            <p class="Lpara-four">Petrol</p>
+            <button class="LRent-now">Rent Now </button></div>
+        </div>
+        <div>  
+            <div class="card-Allied-two">
+                <p class="Allied">Allied 15</p>
+                <img src="./Assets/Allied15.png" alt="" width="200px" class="Allied-img">
+                <p class="Allied-price">$95</p>
+                <p class="Allied-perday">/day</p>
+                <img src="./Assets/stars review.png" alt="" width="190px" class="Allied-review">
+                <img src="./Assets/4 seats.png" alt="" width="40px" class="Allied-seats">
+                <img src="./Assets/AC.png" alt="" width="40px" class="Allied-AC">
+                <img src="./Assets/AUTO.png" alt="" width="40px" class="Allied-Auto">
+                <img src="./Assets/Petrol.png" alt="" width="40px" class="Allied-Petrol">
+                <p class="Apara-one">4 Seat</p>
+                <p class="Apara-two">Ac</p>
+                <p class="Apara-three">Auto</p>
+                <p class="Apara-four">Petrol</p>
+                <button class="ARent-now">Rent Now </button></div>
+        </div>
+
+        <div>  
+            <div class="card-BMW">
+                <p class="BMW">BMW</p>
+                <img src="./Assets/BMW.png" alt="" width="200px" class="BMW-img">
+                <p class="BMW-price">$90</p>
+                <p class="BMW-perday">/day</p>
+                <img src="./Assets/stars review.png" alt="" width="190px" class="BMW-review">
+                <img src="./Assets/4 seats.png" alt="" width="40px" class="BMW-seats">
+                <img src="./Assets/AC.png" alt="" width="40px" class="BMW-AC">
+                <img src="./Assets/AUTO.png" alt="" width="40px" class="BMW-Auto">
+                <img src="./Assets/Petrol.png" alt="" width="40px" class="BMW-Petrol">
+                <p class="Bpara-one">4 Seat</p>
+                <p class="Bpara-two">Ac</p>
+                <p class="Bpara-three">Auto</p>
+                <p class="Bpara-four">Petrol</p>
+                <button class="BRent-now">Rent Now </button></div>
+        </div>
+   
+        <div>  
+            <div class="card-Honda">
+                <p class="Honda">Honda Jazz</p>
+                <img src="./Assets/Honda Jazz.png" alt="" width="180px" class="Honda-img">
+                <p class="Honda-price">$85</p>
+                <p class="Honda-perday">/day</p>
+                <img src="./Assets/stars review.png" alt="" width="190px" class="Honda-review">
+                <img src="./Assets/4 seats.png" alt="" width="40px" class="Honda-seats">
+                <img src="./Assets/AC.png" alt="" width="40px" class="Honda-AC">
+                <img src="./Assets/AUTO.png" alt="" width="40px" class="Honda-Auto">
+                <img src="./Assets/Petrol.png" alt="" width="40px" class="Honda-Petrol">
+                <p class="Hpara-one">4 Seat</p>
+                <p class="Hpara-two">Ac</p>
+                <p class="Hpara-three">Auto</p>
+                <p class="Hpara-four">Petrol</p>
+                <button class="HRent-now">Rent Now </button></div>
+                <img src="./Assets/arrow sign.png" alt="" class="arrow-sign" width="40px">
+                <img src="./Assets/other arrow.png" alt="" class="left-arrow" width="40px">
+        </div>
+
+    <div class="customer-review-section">
+        <div class="customer-review-col">
+            <p class="customer-St">Customers story</p>
+            <h4 class="customer-para">5000 + happy customers with their</h4>
+            <h4 class="customer-para-two">best rental experience</h4>
+            <p class="rev-para-one">We serve thousands of satisfied customers every year.Many praise our honest approach</p>
+            <p class="rev-para-two">the majority thank us for our outstanding customer service. Thank you!</p>
+            <img src="./Assets/4.5 stars.png" alt="" class="star-review">
+            <p class="star-review-one">4.5 (1295) star reviews from our clints.</p>
+
+        </div>
+
+        
+        <div>
+        <div class="customer-review-one">
+            <img src="./Assets/review picture one.png" alt="" width="120px" class="Review-img-one">
+            <p class="rev-cus-one">Esther Howard</p>
+            <img src="./Assets/five star.png" alt="" width="120px" class="review-stars-one">
+            <p class="Rivpara-one">I will definitely recommend speedy drive. I rented a car from them recently while on a vacation to Dubai for 10 days.</p>
+        </div>    
+        </div>
+
+        <div class="customer-review-two">
+            <img src="./Assets/review pic two.png" alt="" width="120px" class="Review-img-two">
+            <p class="rev-cus-two">Jenny Wilson</p>
+            <img src="./Assets/five star.png" alt="" width="120px" class="review-stars-two">
+            <p class="Rivpara-two">Thank you to the entire team at Quick Lease Car Rental for a friendly, efficient, and competitively priced rental experience. The vehicle that they recommended upon hearing our needs</p>
+            
+        </div>
+
+        <div class="customer-review-three">
+            <img src="./Assets/review pic three.png" alt="" width="120px" class="Review-img-three">
+            <p class="rev-cus-three">Dianne Russell</p>
+            <img src="./Assets/five star.png" alt="" width="120px" class="review-stars-three">
+            <p class="Rivpara-three">Their services was awesome, seamless and they were helpful from me picking up the car, returning it.</p>
+        </div>
+        
+        <img src="./Assets/arrow sign.png" alt="" class="arrow-sign-two" width="40px">
+        <img src="./Assets/other arrow.png" alt="" class="left-arrow-two" width="40px">
+    </div>
+
+    <div>
+        <h1 class="FAQ">Frequently Ask Questions</h1></div>
+        <p class="FAQ-detail">Looking for information on car rental? See Enterprise's top frequently asked questions including insurance, age, payment methods and much more.</p>
+    </div>
+
+    <div class="FAQ-Question">     
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item mb-3 mt-4" onclick="handleOpenItem('one')">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="fs-lg-4 fs-md-5 fs-6 color_black">Why do customers need a credit card to rent a car?</p>
+                <p class="m-0 fs-1 " id="one">+</p>
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body grey">
+                Credit cards are mandatory for the security deposit. This blocked amount is not deducted from the card unless there are charges added to a contract after the vehicle has been returned. For example, Salik (Toll) & traffic fines.                      
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item mb-3" onclick="handleOpenItem('two')">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="fs-lg-4 fs-md-5 fs-6 color_black">When will refund the blocked amount to a credit card?</p>
+                <p class="m-0 fs-1 " id="two">+</p>
+            </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body grey">
+                The security deposit is not charged to the card so there is no actual refund. However, it can take up to 29 days (or fewer, depending on the card provider or bank) for the block to be released. After that the customer can use the blocked amount again.</div>
+        </div>
+        </div>
+        <div class="accordion-item mb-3" onclick="handleOpenItem('three')">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="fs-lg-4 fs-md-5 fs-6 color_black">Will the return of security deposit be shown on the credit card statement?</p>
+                <p class="m-0 fs-1 " id="three">+</p>
+            </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body grey">
+                Customers might get a message from their bank when the money is blocked. The blocked amount won’t be debited from the account. Customers will only see actual charges on their credit card statements.</div>
+        </div>
+        </div>
+        <div class="accordion-item mb-3 mt-4" onclick="handleOpenItem('one')">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="fs-lg-4 fs-md-5 fs-6 color_black">What kind of driver's license is required to drive in the UAE, and does it have to be an International License?</p>
+                <p class="m-0 fs-1 " id="one">+</p>
+            </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body grey">
+                UAE Resident Visa holders must have held a Valid UAE license for over a year. For visitors with a GCC passport, a valid GCC Country License is required. For other countries, a valid International Driving License is mandatory. For a list of countries whose visa holders can drive without an international license.</div>
+        </div>
+        </div>
+        <div class="accordion-item mb-3" onclick="handleOpenItem('two')">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="fs-lg-4 fs-md-5 fs-6 color_black">Do customers have to pay for parking in UAE?</p>
+                <p class="m-0 fs-1 " id="two">+</p>
+            </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body grey">
+                Parking in UAE is readily available. Parking along the roadside is paid parking with parking meters installed. Parking charges vary by time of the day and parking zone. Customers need to check the parking zone they are using and pay the appropriate fee.</div>
+        </div>
+        </div>
+        <div class="accordion-item mb-3" onclick="handleOpenItem('three')">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="fs-lg-4 fs-md-5 fs-6 color_black">Can anyone other than the named driver on the agreement drive the car?</p>
+                <p class="m-0 fs-1 " id="three">+</p>
+            </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body grey">
+                Yes, an additional driver can be added for a minimal charge. Inform our counter staff at the time of the rental and make sure that the extra driver has a passport and valid driving license.</div>
+        </div>
+        </div>
+    
+    </div>
+    </div>
+    
+    <div class="last-div">
+       <div><img src="./Assets/youerrow.png" alt="" width="80px" class="youcan-last"></div>
+       
+       <div><p class="last-para">Download the</p>
+       <p class="last-para-one">free car rent app</p>
+       <p class="Last-para-two">Download your app now and enjoy the Ride with a comfort and reliable.</p></div>
+       
+       <a href="https://www.apple.com/store"><img src="./Assets/iconAppStore.svg" alt="" width="150px" class="Last-apple"></a>
+       <a href="https://play.google.com/store"><img src="./Assets/iconGooglePlayE.svg" alt="" width="150px" class="last-google"></a>
+       <div><img src="./Assets/mobile app.png" alt="" class="mobile-app-img"></div>
+    </div>
+
+
+    <div class="footer-div">
+        <ul class="Company-footer">Company
+            <li class="CR">Car Rental</li>
+            <li class="BRS">Brands</li>
+            <li class="YR">Yacht Rental</li>
+            <li class="Blog"> Blog</li>
+            <li class="fooCU">Contact Us</li>
+        </ul>
+
+        <ul class="LID">Location in Dubai
+            <li class="Barsha">Al Barsha</li>
+            <li class="Barsha-he">Al Barsha Heights</li>
+            <li class="Quoz"> Al Quoz</li>
+            <li class="BurDBX"> Bur Dubai</li>
+            <li class="BB">Business Bay</li>
+            <li class="CW">City Walk</li>
+            <li class="deira">Deira</li>
+        </ul>
+
+        <ul class="LoiDB">Location in Dubai
+            <li class="DD">Dubai Downtown</li>
+            <li class="DH">Dubai Hills</li>
+            <li class="DM">Dubai Mall</li>
+            <li class="BurD">Bur Dubai</li>
+            <li class="DBXM">Dubai Marina</li>
+            <li class="DBXC">Dubai Media City</li>
+            <li class="IC">International City</li>
+        </ul>
+       
+        <ul class="DBXlo">Location in Dubai
+            <li class="Barsha-one">Al Barsha</li>
+            <li class="Barsha-he-one">Al Barsha Heights</li>
+            <li class="Quoz-one">Al Quoz</li>
+            <li class="BDone">Bur Dubai</li>
+            <li class="BBone">Business Bay</li>
+            <li class="CWone">City Walk</li>
+            <li class="deira-one">Deira</li>
+        </ul>
+
+        <ul class="footer-contact">Contact Us
+        <div class="loca-img"><img src="./Assets/mail.png" alt="" width="20px" class="img-location"></div>
+            <p class="CU-add">Wearhouse 4, 5th Street,</p>
+            <p class="CU-ad">Al Quoz, Al Quoz 3, Dubai</p>
+            <img src="./Assets/Location.png" alt="" width="25px" class="img-phone">
+            <p class="CU-pho">+971504617277</p>
+            <img src="./Assets/Phone.png" alt="" width="25px" class="img-mail">
+            <p class="CU-email">info@domain.com</p>
+            <div class="SMI">
+            <a href=""><img src="./Assets/fb.png" alt="" class="FB-img" width="45px"></a>
+            <a href=""><img src="./Assets/linked.png" alt="" class="linked-img" width="53px"></a>
+            <a href=""><img src="./Assets/twitter.png" alt="" class="Twitter-img" width="47px"></a>
+            <a href=""><img src="./Assets/insta.png" alt="" class="insta-img" width="48px"></a></div>
+            
+        </ul>
+        <div>
+        <P class="Last-para-footer">@ 2023 Car Renty Group &nbsp;&nbsp;&nbsp;&nbsp; Terms of Use | Privacy Policy</P>
+        </div>
+    </div>
+    
+    
+
+
+
+
+    </div>    
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

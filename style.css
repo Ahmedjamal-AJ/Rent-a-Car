@@ -1,0 +1,2711 @@
+.navbar{
+    background-color: #154c79;
+    min-height: 70px;
+    max-width: 1300px;
+    
+}
+
+.searchbar{
+    width: 850px;
+    height: 90px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 7px;
+    margin-top: -45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+}
+
+
+.line-nav-div{
+    margin-left: 190px;
+    margin-top: -52px;
+}
+
+.PUD{
+margin-left: 230px;
+display: flex;
+margin-top: -75px;
+font-size: 14px;
+opacity: 60%;
+cursor: pointer;
+}
+
+.date-nav{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 5px;
+    max-width: 120px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.line-nav-div-one{
+    margin-left: 350px;
+    margin-top: -65px;
+}
+
+.clock-nav{
+    margin-left: 150px;
+    margin-top: -60px;
+    cursor: pointer;
+}
+
+.clock-nav-two{
+    margin-left: 430px;
+    margin-top: -60px;
+    cursor: pointer;
+}
+
+.time-div-two{
+    margin-left: 260px;
+    max-width: 60px;
+    margin-top: 5px;
+    display: flex;
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+.time-nav{
+    margin-left: 265px;
+    display: flex;
+    margin-top: -42px;
+    font-size: 14px;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.time-div{
+    margin-left: 260px;
+    max-width: 60px;
+    margin-top: 5px;
+    display: flex;
+    border-style: none;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+.line-nav-div-two{
+    margin-left: 320px;
+    margin-top: -65px;
+}
+
+.line-nav-div-four{
+    margin-left: 320px;
+    margin-top: -65px;
+}
+
+.PUD-two{
+    margin-left: 500px;
+    display: flex;
+    margin-top: -75px;
+    font-size: 14px;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.date-nav-two{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 5px;
+    max-width: 120px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.line-nav-div-three{
+    margin-left: 630px;
+    margin-top: -65px;
+}
+
+.fa-solid{
+    display: flex;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.time-nav-two{
+    margin-left: 265px;
+    display: flex;
+    margin-top: -42px;
+    font-size: 14px;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.search-input{
+    display: flex;
+    justify-content: center;
+    margin-left: 49px;
+    margin-top: -25px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.searchdiv{
+    background-color: #1e81b0;
+    min-width: 100px;
+    min-height: 90px;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+    margin-left: 800px;
+    margin-top: -90px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 25px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.fa-regular{
+    font-size: 22px;
+    margin-top: -20px;
+    margin-left: 225px;
+    cursor: pointer;
+
+}
+
+.Country-name{
+    background-color: #154c79;
+    color: white;
+    border-style: none;
+    margin-left: 90px;
+    cursor: pointer;
+    display: flex;
+    margin-top: -25px;
+}
+
+.Language{
+    background-color: #154c79;
+    color: white;
+    border-style: none;
+    margin-left: 540px;
+    cursor: pointer;
+    display: flex;
+    margin-top: -25px;
+}
+
+.Country-code{
+    background-color: #154c79;
+    color: white;
+    border-style: none;
+    margin-left: 160px;
+    display: flex;
+    cursor: pointer;
+    margin-top: -23px;
+}
+
+.nav-drop{
+    background-color: #1e81b0;
+}
+
+.currency{
+    color: white;
+    font-size: 25px;
+    margin-left: -100px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 22px;
+}
+
+.Arabic{
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.UAE-flag{
+    margin-left: 60px;
+    margin-top: 3px;
+    cursor: pointer;
+    display: flex;
+}
+
+.USA-flag{
+    margin-left: 512px;
+    cursor: pointer;
+    margin-top: 3px;
+    display: flex;
+}
+
+
+.RAC{
+    margin-left: 90%;
+}
+
+.Pro{
+    color: black;
+    text-decoration: none;
+}
+
+.CU{
+    color: black;
+    text-decoration: none;
+}
+
+.Login{
+    color: black;
+    text-decoration: none;
+}
+
+.get-start{
+    background-color: #1e81b0;
+    min-width: 170px;
+    min-height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.sec-nav{
+    background-color: white;
+    min-height: 100px;
+}
+
+.RAC{
+    border-style: none;
+    margin-left: 130px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.Brands{
+    border-style: none;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+.YacR{
+    border-style: none;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+.Pro{
+    border-style: none;
+    margin-left: 1.5%;
+}
+
+.CU{
+    border-style: none;
+    margin-left: 1.5%;
+}
+
+.Login{
+    border-style: none;
+    margin-left: 12%;
+}
+
+.get-start{
+    color: white;
+    
+}
+
+.rentlogo{
+    margin-left: 40px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+
+.dubairent{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.first-para{
+    margin-left: 80px;
+    font-weight: 500;
+}
+
+.glass{
+    cursor: pointer;
+}
+.sec-para{
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.iconAppStore{
+    margin-left: 75px;
+    
+}
+
+.iconGooglePlayE{
+    margin-left: 20px;
+    
+}
+
+.mainface{
+    background-color:#f5f5f5;
+    min-height: 500px;
+    background-image: url("./Assets/car logo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.second-para{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.rental-car-details{
+    min-height: 180px;
+    flex-wrap: wrap;
+}
+
+.first-card{
+    display: flex;
+    
+}
+
+.sec-card{
+    display: flex;
+}
+
+.thired-card{
+    display: flex;
+}
+
+.fourth-card{
+    display: flex;
+}
+
+.first-para-card{
+    font-size: 50px;
+    color: #1e81b0;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.Rental{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.line{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.sec-para-card{
+    font-size: 50px;
+    color: #1e81b0;
+    font-weight: bold;
+    margin-left: 370px;
+    cursor: pointer;
+    margin-top: -98px;
+    
+}
+
+.Rental-car{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: -90px;
+    cursor: pointer;
+}
+
+.secline{
+    margin-left: 25px;
+    margin-top: -110px;
+}
+
+.thired-para-card{
+    font-size: 50px;
+    color: #1e81b0;
+    font-weight: bold;
+    margin-left: 660px;
+    margin-top: -98px;
+    cursor: pointer;
+}
+
+.Satisfied-clients{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -90px;
+    cursor: pointer;
+}
+
+.thdline{
+    margin-left: 35px;
+    margin-top: -110px;
+}
+
+.fourth-para-card{
+    font-size: 50px;
+    color: #1e81b0;
+    font-weight: bold;
+    margin-left: 960px;
+    margin-top: -98px;
+    cursor: pointer;
+}
+
+.Seconds-average{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+
+
+.cat-para{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.luxury-car{
+    margin-top: 90px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.Luxury{
+    margin-left: 70px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.L-cars{
+    margin-left: 70px;
+    margin-top: -16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sports-car{
+    margin-top: -160px;
+    margin-left: 370px;
+    cursor: pointer;
+}
+
+.sports{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.S-cars{
+    margin-left: 80px;
+    margin-top: -16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.SUV-car{
+    margin-top: -190px;
+    margin-left: 680px;
+    cursor: pointer;
+}
+
+.SUV{
+    margin-left: 80px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.SU-cars{
+    margin-left: 70px;
+    margin-top: -20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.monthly-car{
+    margin-top: -180px;
+    margin-left: 960px;
+    cursor: pointer;
+}
+
+.monthly{
+    margin-left: 80px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.SUS-cars{
+    margin-left: 87px;
+    margin-top: -20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.High-car{
+    margin-top: 80px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.withdriver-car{
+    margin-top: -200px;
+    margin-left: 380px;
+    cursor: pointer;
+}
+
+.Electric-car{
+    margin-top: -170px;
+    margin-left: 680px;
+    cursor: pointer;
+}
+
+.Convertable-car{
+    margin-top: -170px;
+    margin-left: 980px;
+    cursor: pointer;
+}
+
+.High{
+    margin-left: 60px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.High-cars{
+    margin-left: 70px;
+    margin-top: -16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.withdriver{
+    margin-left: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.SU-with-cars{
+    margin-left: 70px;
+    margin-top: -16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.Electric{
+    margin-left: 80px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.SU-ele-cars{
+    margin-left: 81px;
+    margin-top: -16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.Convertable{
+    margin-left: 80px;
+    font-weight: 600;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.SU-co-cars{
+    margin-left: 95px;
+    margin-top: -16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.See-more{
+    margin-left: 500px;
+    min-width: 250px;
+    min-height: 50px;
+    border-color:#5dcaf9;
+    color:#5dcaf9;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+
+.card-bar{
+    background-color:#f5f5f5;
+    min-height: 500px;
+}
+
+.BYSC{
+    margin-left: 420px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    padding-top: 100px;
+}
+
+.BYSC-two{
+    margin-left: 420px;
+    padding-top: 100px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.para-bysc{
+    margin-left: 270px;
+    font-size: 20px;
+}
+
+.para-bysc-thre{
+    margin-left: 420px;
+    font-size: 20px;
+}
+
+.sec-para-bysc{
+    margin-left: 420px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.sec-para-bysc-thr{
+    margin-left: 423px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.Price{
+    background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+.Model{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Location{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+
+.Color{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Rating{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.card-Land-cruser{
+    max-height: 550px;
+    max-width: 265px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 50px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    
+}
+
+.Land{
+    color:#1e81b0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding-top: 10px;
+    
+}
+
+.Land-img{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.Land-price{
+    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Land-perday{
+    margin-left: 62px;
+    margin-top: -39px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 70%;
+}
+
+.Land-review{
+    margin-left: 18px;
+    margin-top: -50px;
+}
+
+.Land-seats{
+    margin-left: 18px;
+    display: flex;
+}
+
+.Land-AC{
+    margin-left: 75px;
+    margin-top: -42px;
+    display: flex;
+}
+
+.Land-Auto{
+    margin-left: 130px;
+    margin-top: -41px;
+    display: flex;
+}
+
+.Land-Petrol{
+    margin-left: 190px;
+    margin-top: -41px;
+    display: flex;
+}
+
+.Lpara-one{
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+
+.Lpara-two{
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: -34px;
+}
+
+.Lpara-three{
+    font-size: 12px;
+    margin-left: 140px;
+    margin-top: -34px;
+}
+
+.Lpara-four{
+    font-size: 12px;
+    margin-left: 195px;
+    margin-top: -34px;
+}
+
+.LRent-now{
+    background-color: #1e81b0;
+    min-width: 265px;
+    min-height: 50px;
+    border-style: none;
+    border-radius: 0  0 5px 5px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-Allied{
+    max-height: 550px;
+    max-width: 265px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 340px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -383px;
+
+}
+
+.cards-cars{
+    min-height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    
+}
+
+.Allied{
+    color:#1e81b0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+
+.Allied-img{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.Allied-price{
+    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Allied-perday{
+    margin-left: 62px;
+    margin-top: -39px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 70%;
+}
+.Allied-review{
+    margin-left: 18px;
+    margin-top: -50px;
+}
+
+.Allied-seats{
+    margin-left: 18px;
+    display: flex;
+}
+.Allied-AC{
+    margin-left: 75px;
+    margin-top: -44px;
+    display: flex;
+}
+
+.Allied-Auto{
+    margin-left: 130px;
+    margin-top: -41px;
+    display: flex;
+}
+.Allied-Petrol{
+    margin-left: 190px;
+    margin-top: -41px;
+    display: flex;
+}
+
+.Apara-one{
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.Apara-two{
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: -34px;
+}
+
+.Apara-three{
+    font-size: 12px;
+    margin-left: 140px;
+    margin-top: -34px;
+}
+
+.Apara-four{
+    font-size: 12px;
+    margin-left: 195px;
+    margin-top: -34px;
+}
+
+.ARent-now{
+    background-color: #1e81b0;
+    min-width: 265px;
+    min-height: 50px;
+    border-style: none;
+    border-radius: 0  0 5px 5px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-BMW{    
+    max-height: 550px;
+    max-width: 265px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 630px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -360px;
+}
+
+.BMW{
+    color:#1e81b0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.BMW-img{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.BMW-price{    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.BMW-perday{
+    margin-left: 62px;
+    margin-top: -39px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 70%;
+}
+.BMW-review{
+    margin-left: 18px;
+    margin-top: -50px;
+}
+.BMW-seats{
+    margin-left: 18px;
+    display: flex;
+}
+
+.BMW-AC{
+    margin-left: 75px;
+    margin-top: -42px;
+    display: flex;
+}
+
+
+.BMW-Auto{
+    margin-left: 130px;
+    margin-top: -41px;
+    display: flex;
+}
+.BMW-Petrol{
+    margin-left: 190px;
+    margin-top: -41px;
+    display: flex;
+}
+.Bpara-one{
+        font-size: 12px;
+        margin-left: 22px;
+
+}
+.Bpara-two{
+        font-size: 12px;
+        margin-left: 90px;
+        margin-top: -34px;
+}
+.Bpara-three{
+        font-size: 12px;
+        margin-left: 140px;
+        margin-top: -34px;
+}
+.Bpara-four{
+    font-size: 12px;
+    margin-left: 195px;
+    margin-top: -34px;
+}
+.BRent-now{
+    background-color: #1e81b0;
+    min-width: 265px;
+    min-height: 50px;
+    border-style: none;
+    border-radius: 0  0 5px 5px;
+    font-size: 16px;
+    color: white;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.card-Honda{    
+    max-height: 550px;
+    max-width: 265px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 920px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -360px;
+}
+
+.Honda{
+    color:#1e81b0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.Honda-img{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.Honda-price{    
+    margin-left: 20px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Honda-perday{
+    margin-left: 62px;
+    margin-top: -39px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    opacity: 70%;
+}
+.Honda-review{
+    margin-left: 18px;
+    margin-top: -50px;
+}
+.Honda-seats{
+    margin-left: 18px;
+    display: flex;
+}
+
+.Honda-AC{
+    margin-left: 75px;
+    margin-top: -42px;
+    display: flex;
+}
+
+
+.Honda-Auto{
+    margin-left: 130px;
+    margin-top: -41px;
+    display: flex;
+}
+.Honda-Petrol{
+    margin-left: 190px;
+    margin-top: -41px;
+    display: flex;
+}
+.Hpara-one{
+        font-size: 12px;
+        margin-left: 22px;
+
+}
+.Hpara-two{
+        font-size: 12px;
+        margin-left: 90px;
+        margin-top: -34px;
+}
+.Hpara-three{
+        font-size: 12px;
+        margin-left: 140px;
+        margin-top: -34px;
+}
+.Hpara-four{
+    font-size: 12px;
+    margin-left: 195px;
+    margin-top: -34px;
+}
+.HRent-now{
+    background-color: #1e81b0;
+    min-width: 265px;
+    min-height: 50px;
+    border-style: none;
+    border-radius: 0  0 5px 5px;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main-banner{
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.div-para-one{
+    font-size: 18px;
+    color: #1e81b0;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-left: 650px;
+}
+.div-para-img{
+    margin-left: 650px;
+    
+}
+.div-para-two{
+    margin-left: 650px;
+    margin-top: 25px;
+    font-size: 13px;
+}
+.div-para-three{
+    margin-left: 650px;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.SUV-banner-all{
+    margin-top: -220px;
+    cursor: pointer;
+}
+.VOB{
+    margin-top: -270px;
+    margin-left: 650px;
+}
+.variety-img{
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+.VOB-para{
+    margin-left: 60px;
+    margin-top: -50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.VOb-para-one{
+    margin-left: 60px;
+    margin-top: -10px;
+    opacity: 70%;
+}
+.VOb-para-two{
+    margin-left: 60px;
+    margin-top: -14px;
+    opacity: 70%;
+}
+.QD-div{
+    margin-top: -97px;
+    margin-left: 950px;
+}
+.Quality-drive{
+    margin-bottom: -11px;
+    cursor: pointer;
+}
+.QD-para{
+    margin-left: 60px;
+    margin-top: -50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.QD-para-one{
+    margin-left: 60px;
+    margin-top: -10px;
+    opacity: 70%;
+}
+.QD-para-two{
+    margin-left: 60px;
+    margin-top: -14px;
+    opacity: 70%;
+}
+.FC-div{
+    margin-top: 80px;
+    margin-left: 650px;
+}
+.Free-can{
+    margin-bottom: -11px;
+    cursor: pointer;
+}
+.Free-can-one{
+    margin-left: 60px;
+    margin-top: -50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Free-can-two{
+    margin-left: 60px;
+    margin-top: -14px;
+    opacity: 70%;
+}
+.Free-can-three{
+    margin-left: 60px;
+    margin-top: -14px;
+    opacity: 70%;
+}
+.BS-div{
+    margin-top: -90px;
+    margin-left: 950px;
+}
+.BS-img{
+    margin-bottom: -11px;
+    cursor: pointer;
+}
+.BS-para-one{
+    margin-left: 60px;
+    margin-top: -50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.BS-para-two{
+    margin-left: 60px;
+    margin-top: -14px;
+    opacity: 70%;
+}
+.BS-para-three{
+    margin-left: 60px;
+    margin-top: -14px;
+    opacity: 70%;
+    margin-bottom: 140px;
+}
+    
+.card-bar-two{
+    margin-left: -400px;
+}
+
+.para-bysc-two{
+    margin-left: 420px;
+    font-size: 20px;
+}
+
+.Price-two{
+    background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 420px;
+    margin-top: 30px;
+}
+
+.Model-two{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Location-two{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+
+.Color-two{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.Rating-two{
+background-color:#f5f5f5;
+    min-height: 50px;
+    min-width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    border-color: #C3CFE2;
+    opacity: 60%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.cards-cars-two{
+    min-height: 700px;
+    background-color: white;
+    margin-top: 54px;
+    
+}
+
+.card-Allied-two{
+    max-height: 550px;
+    max-width: 265px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 340px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -717px;
+
+}
+
+.arrow-sign{
+    margin-top: -450px;
+    margin-left: 30px;
+}
+
+.left-arrow{
+    margin-top: -450px;
+    margin-left: 1090px; 
+}
+
+.customer-review-one{    
+    max-height: 550px;
+    max-width: 350px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 55px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: 100px;
+    background-color: white;
+    display: block;
+    
+}
+
+.Review-img-one{
+    margin-left: 120px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.review-stars-one{
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.Rivpara-one{
+    padding: 25px;
+    font-size: 20px;
+}
+
+.rev-cus-one{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 99px;
+}
+
+.customer-review-two{
+    max-height: 600px;
+    max-width: 350px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 445px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -470px;
+    background-color: white;
+}
+
+.Review-img-two{
+    margin-left: 120px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.review-stars-two{
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.Rivpara-two{
+    padding: 25px;
+    font-size: 20px;
+}
+
+.rev-cus-two{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 99px;
+}
+
+.customer-review-three{
+    max-height: 550px;
+    max-width: 350px;
+    box-shadow: 100px;
+    border-radius: 10px;
+    margin-left: 835px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 
+    0 8px 16px rgba(0, 0, 0, .1);
+    margin-top: -448px;
+    background-color: white;
+}
+
+.Review-img-three{
+    margin-left: 120px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.review-stars-three{
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.Rivpara-three{
+    padding: 25px;
+    font-size: 20px;
+}
+
+.rev-cus-three{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.customer-review-col{
+    margin-top: 80px;
+}
+
+.customer-St{
+    color:#154c79;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.customer-para{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.customer-para-two{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+}
+
+.rev-para-one{
+    font-size: 18px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.rev-para-two{
+    font-size: 18px;
+    text-align: center;
+    opacity: 60%;
+    margin-top: -15px;
+}
+
+.star-review{
+    margin-left: 400px;
+}
+
+.star-review-one{
+    font-size: 18px;
+    text-align: center;
+    opacity: 60%;
+    margin-left: 150px;
+    margin-top: -28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.customer-review-section{
+    background-color: #f5f5f5;
+    max-height: 1500px;
+    padding-top: 2px;
+    margin-top: 40px;
+    max-width: 1500px;
+    padding-bottom: 80px;
+    
+}
+
+.arrow-sign-two{
+    margin-left: 35px;
+    margin-top: -450px;
+}
+
+.left-arrow-two{
+    margin-left: 1080px;
+    margin-top: -450px;
+}
+
+.City-name{
+    font-size: 30px;
+    list-style-type: none;
+    margin-left: 560px;
+    margin-top: -56px;
+    display: flex;
+    border-color: white;
+    color: #1e81b0;
+}
+
+
+.arrow-sign-one{
+    margin-top: -490px;
+    margin-left: 30px;
+}
+
+.left-arrow-one{
+    margin-top: -490px;
+    margin-left: 1090px;
+}
+
+
+.accordion-item, .accordion-body {
+    border: 1px solid rgb(236, 236, 236);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.accordion-button {
+    border: 1px solid rgb(236, 236, 236) !important;
+    border-bottom:  none!important;
+    border-radius: 16px !important;    
+}
+
+  .accordion-button::after {
+    display: none;
+  }
+
+  .accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    border-radius: 16px 16px 0 0!important;    
+  }
+  
+#one, #two, #three {
+    padding: 0 10px ;
+    background-color:  rgb(243, 243, 243);
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.FAQ{
+    margin-left: 400px;
+    min-width: 500px;
+    padding-top: 50px;
+}
+
+.FAQ-detail{
+    margin-left: 100px;
+}
+
+.last-div{
+    background-color:#1AA9E5;
+    max-height: 300px;
+    max-width: 1100px;
+    margin-left: 80px;
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.mobile-app-img{
+    display: flex;
+    margin-left: 70px;
+    margin-top: -70px;
+}
+
+.youcan-last{
+    margin-left: 60px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.last-para{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.last-para-one{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    margin-top: -30px;
+    font-weight: 600;
+}
+
+
+.Last-para-two{
+    display: flex;
+    margin-top: -13px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+}
+
+.Last-apple{
+    display: flex;
+    margin-top: 210px;
+    margin-left: -570px;
+
+}
+
+.last-google{
+    display: flex;
+    margin-top: 210px;
+    margin-left: -400px;
+
+}
+
+.footer-div{
+    margin-top: 185px;
+    display: flex;
+    background-color:#045083;
+    color: white;
+    list-style: none;
+    padding-top: 30px;
+    min-height: 250px;
+}
+
+.Company-footer{
+    margin-left: 70px;
+    list-style: none;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.CR{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.BRS{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.YR{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.Blog{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.fooCU{
+    margin-top: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.LID{
+    margin-left: 70px;
+    list-style: none;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.LoiDB{
+    margin-left: 70px;
+    list-style: none;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.DBXlo{
+    margin-left: 70px;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.footer-contact{
+    margin-left: 70px;
+    list-style: none;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.Barsha{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.Barsha-he{
+    margin-top: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 80%;
+}
+.Quoz{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.BurDBX{
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 80%;
+}
+.BB{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.CW{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.deira{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.Barsha-one{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.Barsha-he-one{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.Quoz-one{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.BDone{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.BBone{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.CWone{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.deira-one{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.DD{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.DH{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.DM{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.BurD{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.DBXM{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.DBXC{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.IC{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.CU-add{
+    margin-top: -35px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.CU-ad{
+    margin-top: -10px;
+    font-size: 14px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.CU-pho{
+    font-size: 14px;
+    opacity: 80%;
+    margin-top: -27px;
+    cursor: pointer;
+}
+.CU-email{
+    font-size: 14px;
+    opacity: 80%;
+    margin-top: -26px;
+    cursor: pointer;
+}
+
+.loca-img{
+    margin-left: -30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.img-phone{
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.img-mail{
+    margin-left: -30px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.FB-img{
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.linked-img{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.Twitter-img{
+    margin-left: -4px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.insta-img{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.Last-para-footer{
+    margin-top: 450px;
+    margin-left: -700px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 70%;
+    cursor: pointer;
+
+}
+
+.searchcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:320px) {
+    .navbar{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:320px) {
+
+.Language{
+        margin-left: 210px;
+        display: flex;
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .USA-flag{
+        margin-left: 180px;
+        display: flex;
+        width: 22px;
+        margin-top: -22px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+        .Country-code{
+        margin-left: 92px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+        .currency{
+        margin-left: -165px;
+        display: flex;   
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .Arabic{
+        margin-right: 43px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .sec-nav{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .RAC{
+        margin-left: 1px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .Brands{
+        margin-left: -1px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:320px) {
+        .YacR{
+        margin-left: 220px;
+        display: flex;
+        margin-top: -22px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .Pro{
+        margin-top: 5px;
+        display: flex;
+        margin-left: 80px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+        .CU{
+        margin-top: -19px;
+        display: flex;
+        margin-left: 160px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .Login{
+        margin-top: -20px;
+        display: flex;
+        margin-left: 240px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .get-start{
+        margin-left: 80px;
+        
+    }
+}
+@media only screen and (max-width:320px) {
+    .dubairent{
+        width: 250px;
+        margin-top: 200px;
+        
+    }
+}
+@media only screen and (max-width:320px) {
+    .first-para{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .sec-para{
+        font-size: 10px;
+        max-width: 220px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .iconAppStore{
+        width: 90px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .iconGooglePlayE{
+        width: 90px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .rentlogo{
+        width: 70px;
+        margin-left: -1px;
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .second-para{
+        width: 190px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .cat-para{
+        width: 200px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .City-name{
+        font-size: 10px;
+        margin-left: 110px;
+        margin-top: -38px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .mainface{
+        background-position: left;
+        background-size: 310px;
+        background-position: top;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .searchcontainer{
+        display: none;
+    }
+}
+
+ @media only screen and (max-width:320px) {
+       .first-para-card{
+        font-size: 10px;
+        margin-top: -1px;
+        margin-left: 80px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .Rental{
+        font-size: 10px;
+        margin-top: -1px;
+        margin-left: 10px;
+        margin-top: -8px;    
+    }
+}
+    
+
+@media only screen and (max-width:320px) {
+    .sec-para-card{
+        font-size: 10px;
+        margin-top: -40px;
+        margin-left: 170px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Rental-car{
+        font-size: 10px;
+        margin-top: -45px;
+        margin-left: 10px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .thired-para-card{
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 80px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Satisfied-clients{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .fourth-para-card{
+        font-size: 10px;
+        margin-top: -42px;
+        margin-left: 175px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Seconds-average{
+        font-size: 10px;
+        margin-top: -58px;
+        margin-left: 10px;
+        display: flex;
+
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .line, .secline, .thdline{
+        display: none;
+    }
+}
+ @media only screen and (max-width:320px) {   
+    .cat-para{
+        margin-top: -90px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .BYSC, .para-bysc, .sec-para-bysc, .Price, .Model, .Location, .Color, .Rating{
+        margin-left: 20px;
+        display: flex;  
+        font-size: 10px;
+
+    }
+}
+@media only screen and (max-width:320px) {
+    .left-arrow, .arrow-sign{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+   .BYSC{
+        font-size: 25px;
+        margin-top: -50px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .main-banner{
+        width: 270px;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .div-para-one, .div-para-two, .div-para-three, .div-para-img{
+        margin-left: 20px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .div-para-one{
+        margin-top: 90px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {    
+    .div-para-img{
+        width: 250px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SUV-banner-all{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+    .VOB-para, .VOb-para-one, .VOb-para-two{
+        display: flex;
+        margin-left: -550px;
+        font-size: 10px;
+    }
+}
+    
+    @media only screen and (max-width:320px) {
+    .variety-img{
+        margin-left: -600px;
+        margin-top: 300px;
+        width: 30px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .QD-para, .QD-para-one, .QD-para-two{
+        display: flex;
+        margin-left: -850px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Quality-drive{
+        margin-left: -900px;
+        margin-top: 140px;
+        width: 30px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Free-can-one, .Free-can-two, .Free-can-three{
+        display: flex;
+        margin-left: -550px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Free-can{
+        margin-left: -600px;
+        margin-top: -30px;
+        width: 30px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .BS-para-one, .BS-para-two, .BS-para-three{
+        display: flex;
+        margin-left: -850px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .BS-img{
+        margin-left: -900px;
+        margin-top: 140px;
+        width: 30px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-bar-two{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Sports-img{
+        margin-left: -300px;
+        margin-top: 170px;
+        display: flex;
+        
+    }
+}
+@media only screen and (max-width:320px) {
+    .sports{
+        margin-left: -220px;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .S-cars{
+        margin-left: -220px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SUV-img{
+        margin-left: -600px;
+        margin-top: 200px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SUV{
+        margin-left: -520px;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SU-cars{
+        margin-left: -530px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .monthly-img{
+        margin-left: -890px;
+        margin-top: 200px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .monthly{
+        margin-left: -815px;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SUS-cars{
+        margin-left: -810px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .High-img{
+        margin-top: -50px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .withdriver-img{
+        margin-left: -310px;
+        margin-top: 220px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .withdriver{
+        margin-left: -270px;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SU-with-cars{
+        margin-left: -240px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Electric-img{
+        margin-left: -620px;
+        margin-top: 200px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Electric{
+        margin-left: -535px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SU-ele-cars{
+        margin-left: -535px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Convertable-img{
+        margin-left: -930px;
+        margin-top: 200px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Convertable{
+        margin-left: -850px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SU-co-cars{
+        margin-left: -830px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:320px) {
+    .See-more{
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-Land-cruser{
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-Allied{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-BMW{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-Honda{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .arrow-sign-one{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+    .card-Allied-two{
+        margin-left: 30px;
+        margin-top: -310px;
+                
+    }
+}
+@media only screen and (max-width:320px) {
+    .star-review{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .star-review-one{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .rev-para-one, .rev-para-two{
+        font-size: 12px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .customer-St{
+        margin-top: -40px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .customer-para, .customer-para-two{
+        font-size: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .customer-review-one{
+        margin-left: 35px;
+        margin-top: 50px;
+        width: 80%
+    }
+}
+@media only screen and (max-width:320px) {
+    .Review-img-one{
+        margin-left: 85px;
+        width: 90px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .rev-cus-one{
+        font-size: 15px;
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width:320px) {    .Rivpara-one{
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: -19px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .review-stars-one{
+        margin-left: 70px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .customer-review-two, .customer-review-three, .arrow-sign-two, .left-arrow-two{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+    .FAQ{
+        margin-left: 38px;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .FAQ-detail{
+        font-size: 13px;
+        margin-left: 19px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .FAQ-Question{
+        margin-left: -90px;
+        margin-right: -90px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .accordion-body{
+        margin-left: 9px;
+        margin-right: 9px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:320px) {    
+    .last-div{
+        width: 300px;
+        margin-left: 10px;
+        max-height: 150px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .last-para, .last-para-one{
+        font-size: 8px;
+        margin-left: 10px;
+
+    }
+}
+@media only screen and (max-width:320px) {
+    .Last-para-two{
+        font-size: 8px;
+        margin-left: 10px;
+        margin-right: 150px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .last-para-one{
+        margin-top: -16px;
+    }
+}
+@media only screen and (max-width:320px) {    .last-para{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:320px) {    .youcan-last{
+        width: 30px;
+        margin-left: 15px;
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .mobile-app-img{
+        width: 90px;
+        margin-left: -130px;
+        margin-top: -20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Last-apple{
+        width: 50px;
+        margin-left: -245px;
+        margin-top: 90px;
+
+    }
+}
+@media only screen and (max-width:320px) {
+    .last-google{
+        width: 50px;
+        margin-left: -190px;
+        margin-top: 90px;
+
+    }
+}
+@media only screen and (max-width:320px) {
+    .Company-footer{
+        font-size: 22px;
+        text-align: center;
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .LID, .DBXlo{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+    .LoiDB{
+        margin-top: 300px;
+        text-align: center;
+        margin-left: -230px;
+        font-size: 22px;
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Last-para-footer{
+        margin-top: 1050px;
+        margin-left: -365px;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:320px) {    .footer-contact{
+        margin-top: 710px;
+        margin-left: -230px;
+        font-size: 22px;
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width:320px) {
+    .loca-img, .img-phone, .img-mail{
+        margin-left: -50px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .SMI{
+        margin-left: -10px;
+    }
+
+
+
+
+
+}
+
+
+
+
